@@ -1,7 +1,8 @@
-baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'VR Project'
 theme = "blackburn"
+publishDir = "docs"
+baseURL = "https://serandt.github.io/VR-Locomotion"
 
 copyright = "&copy; 2016. All rights reserved."
 canonifyurls = true
