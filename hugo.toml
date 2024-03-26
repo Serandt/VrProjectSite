@@ -1,7 +1,7 @@
 languageCode = 'en-us'
 title = 'VR Project'
 theme = "blackburn"
-baseURL = "https://serandt.github.io/VR-Locomotion/"
+baseURL = "https://serandt.github.io/VrProjectSite/"
 canonifyURLs = true
 
 copyright = "&copy; 2016. All rights reserved."
