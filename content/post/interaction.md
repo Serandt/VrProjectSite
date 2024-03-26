@@ -8,6 +8,7 @@ The idea was to make the interaction a little more magical by replacing the give
 
 When reaching the task players will see a wand floating around which they can catch by touching it with the right controller.
 the wand is then automatically set to the position of it.
+Also the way of starting a task was changed to start when players grab the wand.
 
 While in this task players still have the possibility to move around with the broom.
 
@@ -67,8 +68,3 @@ A new field was added so players can see how many ghosts are left for this task 
 
 Because I noticed the text field showing which part is currently being played I also fixed this.
 
-
-
-### Example
-
-![alt text](/img/interaction.gif "Title Text")
