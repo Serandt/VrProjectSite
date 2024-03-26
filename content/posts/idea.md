@@ -1,7 +1,7 @@
 +++
 title = 'The Idea'
 date = 2024-03-25T12:52:11+01:00
-draft = true
+draft = false
 +++
 
 The idea started as a teleportation using a bow and an arrow. To my "surprise" there were two other people wanting to do this aswell.

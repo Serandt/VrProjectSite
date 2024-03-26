@@ -1,7 +1,7 @@
 +++
 title = 'Parkour Changes'
 date = 2023-12-27T18:30:39+01:00
-draft = true
+draft = false
 +++
 
 to make the experience more magical and immersive I decided to make some changes in the environment.
