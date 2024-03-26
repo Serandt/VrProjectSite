@@ -27,7 +27,6 @@ Interaction idea and implementation.
 [Learn more](../posts/interaction)
 
 
-
 # Evaluation
 How other people played and their experience.
 [Learn more](../posts/evaluation)
