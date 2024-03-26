@@ -9,6 +9,7 @@ For the locomotion technique I decided to let players fly around using a broom.
 
 In concrete: Players put a stick between the legs simulating sitting on a broom and move around by moving that.
 
+Something I learned here is the importance of choosing the correct speed for every movement because of caber sickness.
 
 ### Forward movement
 
@@ -65,3 +66,8 @@ After the evaluation someone came to the idea of making the horizontal and verti
 To be honest I though during the entire implementation about having them using one but I realized that it would make sense, so I will be working on that in the future :D
 
 Another problem that I encountered was that players aren't supposed to physically move in any other direction than up and down. That's why I didn't notice a bug until the evaluation, when players started rotating once they left their initial position. This should also be fixed in the future.
+
+
+### Example video
+
+Here is a link to a an example video of the locomotion: [link](https://youtube.com/shorts/TjYE3UZuBT8?feature=share)

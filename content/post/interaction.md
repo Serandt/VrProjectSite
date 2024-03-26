@@ -68,3 +68,6 @@ A new field was added so players can see how many ghosts are left for this task 
 
 Because I noticed the text field showing which part is currently being played I also fixed this.
 
+### Example
+
+Here is a link to a an example video of the interaction: [link](https://youtube.com/shorts/zzedNX5PK_Q?feature=share)
