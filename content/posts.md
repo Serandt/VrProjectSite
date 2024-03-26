@@ -18,7 +18,7 @@ Which assetes were used. [Learn more](../post/assets)
 
 
 # Locomotion
-How to move in the environment and how it was implemented. [Learn more](../post/idea)
+How to move in the environment and how it was implemented. [Learn more](../post/locomotion)
 
 
 # Interaction
