@@ -12,6 +12,12 @@ Also the way of starting a task was changed to start when players grab the wand.
 
 While in this task players still have the possibility to move around with the broom.
 
+To see the implementation of the interaction part take a look the following scripts in the GitHub repository: 
+* Enemy.cs
+* ParkourCounter.cs
+* SelectionTaskMeasure.cs
+* WandScript.cs
+* LocomotionTechnique.cs (changed way of starting task)
 
 ### Shooting
 
@@ -68,6 +74,6 @@ A new field was added so players can see how many ghosts are left for this task 
 
 Because I noticed the text field showing which part is currently being played I also fixed this.
 
-### Example
+### Example video
 
 Here is a link to a an example video of the interaction: [link](https://youtube.com/shorts/zzedNX5PK_Q?feature=share)

@@ -11,10 +11,15 @@ In concrete: Players put a stick between the legs simulating sitting on a broom 
 
 Something I learned here is the importance of choosing the correct speed for every movement because of caber sickness.
 
+To see the implementation of the locomotion take a look the following scripts in the GitHub repository: 
+* LocomotionTechnique.cs
+* ControlBroom.cs (makes the broom modell follow the controller transform)
+
+
 ### Forward movement
 
 
-The forward movement is triggered by going on the knees, simulating the pose people in those kind of movies do when going forward.
+The forward movement is triggered by going a little on the knees, like doing a squad, simulating the pose people in those kind of movies do when going forward.
 This is possible because the game stores the height of the hmd when starting the game.
 
 
@@ -43,13 +48,13 @@ The player object is the one rotating to keep the local transform the same and m
 ### Vertical movement
 
 
-The vertical movement was a little more difficult to calculate due to the fact that players have to go on the knees.
+The vertical movement was a little more difficult to calculate due to the fact that players have to go down.
 The first idea was to update the start local position every time players start or finish moving forward.
 This helped for a while, but during the evaluation I noticed a bug...
 
 
 At the end I decided to store the distance between the hmd and the controller once at the beginning.
-This had the advantage that the distance is always the same no matter if players are standing or on their knees.
+This had the advantage that the distance is always the same no matter if players are standing or going down.
 
 
 The movement is then triggered by moving the broom up and down:
