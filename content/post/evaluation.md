@@ -30,6 +30,8 @@ For this participants were asked to answer in a scale from 1-10 having 1 as "low
 * Presence:             7
 * Fun:              7.3
 
+In general I'm happy with those results.
+To be honest I was expecting the cybersickness level to be higher because of the vertical movement.
 
 ### Difficulty
 
@@ -40,6 +42,8 @@ Participants were asked to rate the level of difficulty in the following three a
 * Interaction:          2.33
 * Stay in pose:         4
 
+It seems like the biggest problem was to stay in pose which is the main action for the locomotion. 
+Maybe this could be better by making the threshold to moving forward smaller. 
 
 ### Speed
 
@@ -50,6 +54,8 @@ This was measured in a scale from 1-5 (very SLow – very fast).
 * Up/Down:              3.33
 * Rotation:             2.67
 
+Like I was thinking, the vertical movement was the main issue. 
+This speed should be decreased also to reduce cyber sickness symptoms.
 
 ### Fatigue
 
@@ -60,6 +66,8 @@ My intention was to evaluate how players' level of fatigue changed after having 
 * Before:           2
 * After:            2.67
 
+It seems like this was difficult for the participants but not enough to not want to play the game again and being able to move around after playing.
+Maybe this was because a round wasn't very long. I would like to test in the future how this works with longer rounds.
 
 ### Feedback
 
@@ -69,3 +77,6 @@ Participants were also asked to give feedback for their experience:
 * It was really fun!
 * The forward movement was exhausting after some time for my legs
 * It was difficult to see the wand (too dark and small)
+
+I'm happy with the feedback and learned a lot with it!
+I also changed the texture of the wand after that to make it brighter.
