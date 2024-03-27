@@ -4,7 +4,7 @@ date = 2024-03-25T12:52:11+01:00
 draft = false
 +++
 
-The idea started as a teleportation using a bow and an arrow. To my "surprise" there were two other people wanting to do this aswell.
+The idea started as a teleportation using a bow and an arrow. To my surprise there were two other people wanting to do this aswell.
 
 That's why I came to this super fun idea of making something like a driving simulator using a segway. One of those vehicles with two wheels for drivong around by leaning.
 

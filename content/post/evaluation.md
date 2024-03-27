@@ -55,7 +55,7 @@ This was measured in a scale from 1-5 (very SLow – very fast).
 
 This was the only question participants had to answer twice: once before and once after playing.
 I evaluated with the scale of 1-4 (not at all, slightly, moderate, very) used in the virtual reality sickness questionnaire (Kim, 2018).
-My intention was to evaluate how players' level of fatigue changed after having to go on their knees for a longer period of time.
+My intention was to evaluate how players' level of fatigue changed after having to do a squad for a longer period of time.
 
 * Before:           2
 * After:            2.67

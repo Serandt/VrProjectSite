@@ -35,3 +35,5 @@ Have fun!
 ### Example
 
 [click here](https://youtu.be/zO5u7G8SM8w) to see an example of me playing a complete round with only the controller and no stick.
+
+![alt text](/img/HomeExample.png "Title Text") 
