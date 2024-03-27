@@ -17,7 +17,11 @@ Changes were made in unity for final touches like gloom, size and orientation.
 
 ### Wand
 
+The darker wand was the first version. After the evaluation feedback I changed the texture to make it more visible in the environment.
+
 ![alt text](/img/WandModell.png "Title Text") 
+
+![alt text](/img/WandModell2.png "Title Text") 
 
 ### Projectile
 
