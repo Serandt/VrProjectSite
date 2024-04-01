@@ -23,13 +23,14 @@ The forward movement is triggered by going a little on the knees, like doing a s
 This is possible because the game stores the height of the hmd when starting the game.
 
 
-When players go down and the distance between the initial and the current height is bigger then the given threshold players will start moving forward.
+When players do a squad and the distance between the initial and the current height is bigger then the given threshold players will start moving forward.
 They stop moving when standing up.
 
-I also decided to use physics when starting and stopping by adding a force to give a filling of floating.
+I also decided to use physics when starting and stopping by adding a force to give a filling of floating. 
+I chose this force mode after testing all modes because it gave me a better feeling when accelerating.
 
 A problem I encountered when implementing and developing this was that the game doesn't know the current height of the hmd in the first frame.
-Because of that the height was always set to 0. I managed to fix this by implementing a delay of this calculation.
+Because of that the initial height was always set to 0. I managed to fix this by implementing a delay of this calculation.
 The variable is stored only when the height is recognized as bigger then a given threshold.
 
 

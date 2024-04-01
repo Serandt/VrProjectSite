@@ -7,23 +7,26 @@ draft = false
 The idea was to make the interaction a little more magical by replacing the given interaction task of the T-shape with a task where they have to catch and exorcize ghosts using a wand and a portal.
 
 When reaching the task players will see a wand floating around which they can catch by touching it with the right controller.
-the wand is then automatically set to the position of it.
-Also the way of starting a task was changed to start when players grab the wand.
+the wand is then automatically set to the position of it and the animation of it stops.
+Because of the rotation of the controller by 40° in the x-axis the wand is rotate by this value when setting its transform to the one of the controller.
 
-While in this task players still have the possibility to move around with the broom.
+Also the way of starting a task was changed to start when players grab the wand.
+The wand is destroyed when finishing the task.
+
+While in this task players still have the possibility to move around using the broom.
 
 To see the implementation of the interaction part take a look the following scripts in the GitHub repository: 
-* Enemy.cs
-* ParkourCounter.cs
-* SelectionTaskMeasure.cs
-* WandScript.cs
+* WandScript.cs (shooting projectiles)
+* Enemy.cs (translation and exorcise)
 * LocomotionTechnique.cs (changed way of starting task)
+* SelectionTaskMeasure.cs (task management)
+* ParkourCounter.cs
 
 ### Shooting
 
 Players have the task to hunt ghosts by shooting at them using a wand.
 
-To achieve this i mainly followed the tutorial from Unity to spawn projectiles and shot them in a direction:
+To achieve this I mainly followed the tutorial from Unity to spawn projectiles and shot them in a direction:
 [tutorial](https://learn.unity.com/tutorial/using-c-to-launch-projectiles#)
 
 Players can shoot projectiles at the ghosts by pressing the inner trigger of the right controller.
@@ -32,8 +35,11 @@ I decided to use this button so players could experience the feeling of grabbing
 A cooldown was also added to prevent players from accidentally shooting more than one projectile at once which could lead to a worse accuracy.
 On the other hand I experimented a little with that so it looks like a laser beam, but at the end I went for the single projectile thinking about the accuracy.
 
+To make it more immersive the controller vibrates when shooting. A Problem I encountered here was when trying to stop the vibration.
+I managed to stop it by using a cooldown to set the vibration to zero.
+
 For the sound of the projectiles being shot I used the following sound:
-[magic beam](https://mixkit.co/free-sound-effects/sweep/)
+[sweep](https://mixkit.co/free-sound-effects/sweep/)
 
 ![alt text](/img/ShootingProjectileExample.png "Title Text")
 

@@ -17,7 +17,7 @@ While playing you will be using the left controller as a broom to move around an
 
 Before starting the game it's important to have the broom at the position it will be when playing.
 Move the broom to go up and down or to rotate left and right.
-To move forward you will have to go down as if you were sitting on a broom and to stop, just stand up.
+To move forward you will have to go down doing a squad as if you were sitting on a broom and to stop, just stand up.
 
 **important** : The game is meant to be played with this controller attached to a "broom" between the legs but you can still play without one.
 If you are playing without the broom, think that the movement is based on the position of the controller and not the rotation.
